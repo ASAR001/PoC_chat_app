@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, Request, File
 from mangum import Mangum
-from .tools import GeminiTools, QdrantTools, PDFTools
+from tools import GeminiTools, QdrantTools, PDFTools
 app = FastAPI()
 
 # Handles pdf input
