@@ -104,18 +104,3 @@ class PDFTools:
             interpreter.process_page(page)
 
         return output_string.getvalue()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
